@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: python3-tkev:1.1
