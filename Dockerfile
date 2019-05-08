@@ -7,8 +7,6 @@ WORKDIR /app
 
 RUN apk add ca-certificates && rm -rf /var/cache/apk/*
 
-RUN pip install certifi
-
 RUN pip install pipenv
 
 RUN pipenv install --system --deploy
