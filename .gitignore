@@ -1,0 +1,10 @@
+**/ssl
+**/*.crt
+**/*.key
+**/*.pem
+**/*.tmp
+**/.vscode
+**/.DS_Store
+**/.coverage
+**/__pycache__
+**/venv
