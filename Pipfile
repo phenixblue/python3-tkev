@@ -10,7 +10,7 @@ requests = "*"
 kubernetes = "*"
 prometheus_flask_exporter = "*"
 prometheus-client = "*"
-pem = "*"
+cryptography = "*"
 
 [dev-packages]
 "autopep8" = "*"
